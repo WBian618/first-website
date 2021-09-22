@@ -3,16 +3,19 @@ h1 {
     text-align: center;
     font-size: 500%;
     padding: 10px;
-    color:orangered;
+    color: black;
+    
     
 }
 
+
 body {
-     background-image: url(https://www.teahub.io/photos/full/193-1934741_ferrari-f1-2017.jpg);
+     background-image: url(https://images.daznservices.com/di/library/sporting_news/47/ea/f1-2020-071620-getty-ftrjpg_1w7gf6ouqqait1w9dnlotm2288.jpg?t=1529954819&quality=100);
      background-repeat: no-repeat;
      height: 100vh;
      background-size: cover;
      background-position: center;
+     background-attachment: fixed;
      margin: 0;
             padding: 0;
         }
@@ -31,6 +34,8 @@ body {
     padding: 0;
     font-family: century Gothic;
     list-style-type: none;
+    text-align: center;
+    padding: 10px;
 }
 
 div.teams{
@@ -49,4 +54,25 @@ ul li{
 
 a {
     color: lightblue;
+}
+
+img.Mercedes{
+    max-width: 800px;
+    padding: 10px;
+}
+
+div.Mercedes{
+    background-color: lightgray; 
+    max-width: 1000px;
+    align-self: center;
+    margin:auto;    
+    border: 5px solid teal;
+    
+}
+img.big{
+    max-width: 800px;
+}
+
+img.win{
+    max-width: 800px;
 }
